@@ -9,6 +9,12 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatNativeDateModule } from '@angular/material/core';
 
+import { ReactiveFormsModule } from '@angular/forms';
+
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+
+import {MatButtonModule} from '@angular/material/button';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -20,7 +26,13 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatDatepickerModule,
     MatFormFieldModule,
     MatInputModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+
+    ReactiveFormsModule,
+
+    MatAutocompleteModule,
+
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
